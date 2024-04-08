@@ -31,7 +31,9 @@ module.exports = function (app) {
   plugin.description = 'Plugin for serving http content using ejs templates'
 
   plugin.schema = function () {
-    return {}
+    return {
+      description: `Place your template files in ${app.getDataDirPath()}`
+    }
   }
 
   const v = (path, { c = [], dec = 1 }) => {
