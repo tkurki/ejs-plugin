@@ -1,6 +1,6 @@
 {
   "name": "@tkurki/ejs-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ejs html template plugin for Signal K Server",
   "main": "index.js",
   "keywords": [
